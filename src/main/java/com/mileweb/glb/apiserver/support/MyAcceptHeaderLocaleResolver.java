@@ -6,6 +6,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver;
 
+/**
+ * 国际化时会用到，url可以添加参数来改变locale
+ * @author whaon
+ *
+ */
 public class MyAcceptHeaderLocaleResolver extends AcceptHeaderLocaleResolver {
 
     private Locale myLocal;
