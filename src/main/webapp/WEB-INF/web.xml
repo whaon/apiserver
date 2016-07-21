@@ -11,6 +11,7 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 	
+	<!-- 其实没有必要 -->
 	<listener>  
         <listener-class>  
             org.springframework.web.context.request.RequestContextListener  
